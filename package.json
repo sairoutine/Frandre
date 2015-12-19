@@ -1,9 +1,9 @@
 {
-  "name": "Honoka",
-  "version": "3.3.6",
-  "description": "Honoka is one of the Bootstrap original theme.",
-  "author": "windyakin",
-  "website": "http://honokak.osaka/",
+  "name": "Frandre",
+  "version": "3.3.6-1.0.0",
+  "description": "Frandre is one of the Bootstrap original theme forked from Honoka.",
+  "author": "sairoutine",
+  "website": "http://sairoutine.github.io/Frandre/",
   "license": "MIT",
   "main": "Gruntfile.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/windyakin/honoka.git"
+    "url": "https://github.com/sairoutine/Frandre.git"
   },
   "devDependencies": {
     "bower": "^1.6.3",

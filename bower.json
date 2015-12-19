@@ -13,11 +13,11 @@
     "web",
     "lovelive"
   ],
-  "author": "windyakin",
-  "homepage": "http://honokak.osaka/",
+  "author": "sairoutine",
+  "homepage": "http://sairoutine.github.io/Frandre/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/windyakin/Honoka.git"
+    "url": "git://github.com/sairoutine/Frandre.git"
   },
   "license": "MIT",
   "moduleType": "globals",

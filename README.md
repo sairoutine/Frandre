@@ -1,44 +1,30 @@
-# Honoka
+# Frandre
 
-[![Build Status by Travis CI](https://travis-ci.org/windyakin/Honoka.svg?branch=master)](https://travis-ci.org/windyakin/Honoka)
-[![Build status by AppVeyor](https://ci.appveyor.com/api/projects/status/6j4y6bugti7f1aff/branch/master?svg=true)](https://ci.appveyor.com/project/windyakin/honoka/branch/master)
-[![devDependency Status](https://david-dm.org/windyakin/Honoka/dev-status.svg)](https://david-dm.org/windyakin/Honoka#info=devDependencies)
+[![Build Status by Travis CI](https://travis-ci.org/sairoutine/Frandre.svg?branch=master)](https://travis-ci.org/sairoutine/Frandre)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-[http://honokak.osaka/](http://honokak.osaka/)
+"Frandre"は"[Honoka](https://github.com/windyakin/Honoka)"を元にした日本語も美しく表示できるBootstrapテーマです。
 
-[![Honoka](dist/assets/img/sample.png)](http://honokak.osaka/)
-
-"Honoka" は日本語も美しく表示できるBootstrapテーマです。
-
-## About "Honoka"
+## About "Frandre"
 
 通常の[Bootstrap](http://getbootstrap.com/)では，日本語のフォント指定や文字サイズは最適とはいえません。"Honoka"はそんなBootstrapをベースに，日本語表示に適したフォント指定や，文字サイズに関するコードを追記したBootstrapテーマの一つです。
 
+"Frandre"は"Honoka"を元に、[Ubuntu](https://www.ubuntulinux.jp/)っぽい配色を適用したテーマです。
+
 ## Live Demo
 
- * [http://honokak.osaka/bootstrap-ja.html](http://honokak.osaka/bootstrap-ja.html) (日本語レイアウト)
- * [http://honokak.osaka/bootstrap.html](http://honokak.osaka/bootstrap.html) (英語レイアウト)
+ * [http://sairoutine.github.io/Frandre/bootstrap-ja.html](http://sairoutine.github.io/Frandre/bootstrap-ja.html) (日本語レイアウト)
+ * [http://sairoutine.github.io/Frandre/bootstrap.html](http://sairoutine.github.io/Frandre/bootstrap.html) (英語レイアウト)
 
 ## Getting Started
 
 ### Download
 
-[Relases](https://github.com/windyakin/Honoka/releases)から最新版をダウンロードしてください。
-
-### Bower
-
-[Bower](http://bower.io/)からインストールすることができます。
-
-```
-bower install --save-dev Honoka#(version)
-```
-
-``(version)``にはバージョン番号を指定します(ex. ``Honoka#3.3.5-c``)。Honokaの最新バージョン番号は[Relases](https://github.com/windyakin/Honoka/releases)から確認してください。
+[Releases](https://github.com/sairoutine/Frandre/releases)から最新版をダウンロードしてください。
 
 ## Usage
 
-Honokaは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
+Frandreは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
 
  * [CSS](http://getbootstrap.com/css/)
  * [Components](http://getbootstrap.com/components/)
@@ -108,7 +94,7 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
 
 ## Build
 
-ビルドの方法については [Wiki](https://github.com/windyakin/Honoka/wiki) をご覧ください。
+ビルドの方法についてはHonokaの [Wiki](https://github.com/windyakin/Honoka/wiki) をご覧ください。
 
 ## License
 
@@ -117,3 +103,7 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
 ## Author
 
  * windyakin ([windyakin.net](http://windyakin.net/))
+
+## Editor
+
+ * sairoutine ([sai-chan.com](http://sai-chan.com/))

@@ -5,7 +5,7 @@
 @import "honoka/variables";
 @import "honoka/mixins";
 
-$brand-honoka: #fdcea0;
+$brand-honoka: $brand-primary;
 $brand-twitter: #55acee;
 $brand-facebook: #3b5998;
 $brand-hatena: #178fde;
@@ -81,12 +81,14 @@ body {
 	background-size: 70%;
 	.honoka {
 		position: absolute;
+		right: 20px;
 		bottom: -20px;
-		left: 0;
-		width: 400px;
+		//left: 0;
+		width: 420px;
 		height: 530px;
-		background-image: url("../img/honoka.png");
+		background-image: url("../img/frandre.png");
 		background-repeat: no-repeat;
+		opacity: 0.3;
 	}
 	.outline {
 		margin-top: 180px;
@@ -143,7 +145,7 @@ section.section {
 				background-color: $brand-warning;
 			}
 			&.compass {
-				background-color: $brand-primary;
+				background-color: $brand-info;
 			}
 			&.japanese {
 				background-color: $brand-danger;

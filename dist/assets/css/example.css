@@ -217,7 +217,7 @@ body {
 }
 .jumbotron.special .basedon {
   margin: 11px auto;
-  color: #777;
+  color: #aea79f;
   text-shadow: #fff 0 1px 2px;
 }
 
@@ -225,7 +225,7 @@ section.section {
   padding: 100px 0;
 }
 section.section.section-default {
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 section.section.section-inverse {
   background-color: #fff5eb;
@@ -251,16 +251,16 @@ section.section .subtitle h2 {
   border-radius: 100%;
 }
 .point .point-box .point-circle.start {
-  background-color: #4caf50;
+  background-color: #38b44a;
 }
 .point .point-box .point-circle.replace {
-  background-color: #ff9800;
+  background-color: #efb73e;
 }
 .point .point-box .point-circle.compass {
-  background-color: #2196f3;
+  background-color: #dd4814;
 }
 .point .point-box .point-circle.japanese {
-  background-color: #f44336;
+  background-color: #df382c;
 }
 .point .point-box .point-circle.japanese span.icon-jp:before {
   font-weight: bold;

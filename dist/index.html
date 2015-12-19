@@ -34,7 +34,7 @@
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a href="/" class="navbar-brand">Frandre</a>
+        <a href="./" class="navbar-brand">Frandre</a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -43,7 +43,7 @@
       </div>
       <div class="navbar-collapse collapse" id="navbar-main">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/">Top</a></li>
+          <li class="active"><a href="./">Top</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Demo <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
@@ -75,12 +75,9 @@
         <h1>Bootstrap Theme for Japanese.</h1>
         <p>"Frandre" は日本語も美しく表示できるBootstrapテーマです。</p>
         <div class="download">
-          <a href="//github.com/windyakin/Frandre/releases" class="btn btn-warning btn-lg"><i class="fa fa-github-alt"></i> Download from GitHub</a>
-					<a href="/bootstrap-ja.html" class="btn btn-info btn-lg"><i class="fa fa-play"></i> Watch Demo</a>
+          <a href="//github.com/sairoutine/Frandre/releases" class="btn btn-warning btn-lg"><i class="fa fa-github-alt"></i> Download from GitHub</a>
+					<a href="./bootstrap-ja.html" class="btn btn-info btn-lg"><i class="fa fa-play"></i> Watch Demo</a>
 				<a href="http://honokak.osaka/" class="btn btn-success btn-lg"><i class="fa fa-rocket"></i> Visit "Honoka"</a>
-        </div>
-        <div class="basedon small">
-          Last version v<span class="last-version"></span> ・ Based on <a href="http://getbootstrap.com/">Bootstrap</a> v3.3.6
         </div>
       </div>
     </div>
@@ -188,7 +185,6 @@
       <div class="col-md-12 text-center">
         <div class="form-group">
           <a href="//github.com/sairoutine/Frandre/releases" class="btn btn-primary btn-lg"><i class="fa fa-github-alt"></i> Download from GitHub</a>
-          <p class="help-block">Last version v<span class="last-version"></span> ・ <a href="//github.com/sairoutine/Frandre/blob/master/LICENSE">MIT License</a></p>
         </div>
         <p>使い方やファイルの説明など、詳しくは <a href="//github.com/sairoutine/Frandre#readme">README</a>をご確認ください</p>
       </div>
@@ -237,18 +233,6 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script>
-$(document).ready(function(e) {
-  $.ajax({
-    url: 'https://api.github.com/repos/sairoutine/Frandre/releases/latest',
-    type: 'get',
-    dataType: 'json'
-  })
-  .done(function(data) {
-    $('.last-version').text(data.tag_name.split('v')[1]);
-  });
-});
-</script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=238369762859730&version=v2.3";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>

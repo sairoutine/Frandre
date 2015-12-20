@@ -3,6 +3,8 @@
 [![Build Status by Travis CI](https://travis-ci.org/sairoutine/Frandre.svg?branch=master)](https://travis-ci.org/sairoutine/Frandre)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+[![Frandre](http://sairoutine.github.io/Frandre/assets/img/sample.png)](http://sairoutine.github.io/Frandre/)
+
 "Frandre"は"[Honoka](https://github.com/windyakin/Honoka)"を元にした日本語も美しく表示できるBootstrapテーマです。
 
 ## About "Frandre"

@@ -24,6 +24,17 @@
 
 [Releases](https://github.com/sairoutine/Frandre/releases)から最新版をダウンロードしてください。
 
+### Bower
+
+[Bower](http://bower.io/)からインストールすることができます。
+
+```
+bower install --save-dev Frandre#(version)
+```
+
+``(version)``にはバージョン番号を指定します(ex. ``Frandre#3.3.6-1.0.0``)。Frandreの最新バージョン番号は[Relases](https://github.com/sairoutine/Frandre/releases)から確認してください。
+
+
 ## Usage
 
 Frandreは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。

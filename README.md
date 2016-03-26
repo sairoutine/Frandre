@@ -32,7 +32,7 @@
 bower install --save-dev Frandre#(version)
 ```
 
-``(version)``にはバージョン番号を指定します(ex. ``Frandre#3.3.6-1.0.0``)。Frandreの最新バージョン番号は[Relases](https://github.com/sairoutine/Frandre/releases)から確認してください。
+``(version)``にはバージョン番号を指定します(ex. ``Frandre#1.0.1``)。Frandreの最新バージョン番号は[Relases](https://github.com/sairoutine/Frandre/releases)から確認してください。
 
 
 ## Usage

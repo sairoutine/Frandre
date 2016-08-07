@@ -28,12 +28,19 @@
 
 [Bower](http://bower.io/)からインストールすることができます。
 
+最新版をインストールするには以下のコマンドを実行してください。
+
+```
+bower install --save-dev $(node -e "$(curl -fsSL https://cdn.honokak.osaka/last.js)" windyakin Honoka)
+```
+
+もしcURLが入っていない環境の場合には、
+
 ```
 bower install --save-dev Frandre#(version)
 ```
 
 ``(version)``にはバージョン番号を指定します(ex. ``Frandre#1.0.1``)。Frandreの最新バージョン番号は[Relases](https://github.com/sairoutine/Frandre/releases)から確認してください。
-
 
 ## Usage
 
@@ -84,7 +91,7 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
@@ -92,7 +99,7 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
     <h1>Hello, world!</h1>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
